@@ -1,0 +1,92 @@
+# yaml-language-server: $schema=https://json.schemastore.org/clang-format.json
+BasedOnStyle:   None
+Language:       Cpp
+IndentWidth:    4
+ColumnLimit:    100
+
+DisableFormat:	false
+UseTab:         Never
+
+AlignAfterOpenBracket:        BlockIndent
+AlignArrayOfStructures:       Right
+
+SpacesBeforeTrailingComments: 2
+AlignTrailingComments:
+  Kind:            Always
+  OverEmptyLines:  0
+
+AlignConsecutiveAssignments:
+  Enabled:         true
+  AcrossEmptyLines: true
+  AcrossComments:  false
+  AlignCompound:   true
+  PadOperators:    true
+
+AlignConsecutiveBitFields:
+  Enabled:         true
+  AcrossEmptyLines: true
+  AcrossComments:  true
+
+AlignConsecutiveDeclarations:
+  Enabled:         true
+  AcrossEmptyLines: true
+  AcrossComments:  false
+  AlignFunctionDeclarations: false
+  AlignFunctionPointers: false
+
+AlignConsecutiveMacros:
+  Enabled:         true
+  AcrossEmptyLines: true
+  AcrossComments:  false
+
+AlignConsecutiveShortCaseStatements:
+  Enabled:         true
+  AcrossEmptyLines: true
+  AcrossComments:  false
+  AlignCaseArrows: true
+  AlignCaseColons: true
+
+AlignEscapedNewlines:         LeftWithLastLine
+PointerAlignment:             Right
+
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AllowShortNamespacesOnASingleLine: true
+
+BinPackArguments:   false
+BinPackParameters:  AlwaysOnePerLine
+
+BreakFunctionDefinitionParameters:  true
+BreakConstructorInitializers: BeforeComma
+BreakBeforeBraces:  Custom
+BraceWrapping:
+  AfterCaseLabel:  true
+  AfterClass:      true
+  AfterControlStatement: Always
+  AfterEnum:       true
+  AfterExternBlock: false
+  AfterFunction:   true
+  AfterNamespace:  false
+  AfterStruct:     true
+  AfterUnion:      true
+  BeforeCatch:     true
+  BeforeElse:      true
+  BeforeWhile:     true
+  IndentBraces:    false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+EnumTrailingComma:    Remove
+IndentPPDirectives:   AfterHash
+InsertBraces:         true
+MaxEmptyLinesToKeep:  1
+
